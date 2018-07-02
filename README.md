@@ -34,7 +34,7 @@ KPTI，也称 PTI，KAISER，是 kernel page-table isolation 的缩写，可以�
 或修改 /etc/default/grub 中 GRUB_CMDLINE_LINUX_DEFAULT 选项中加入 nokaslr nopti，再重新生成 grub.cfg
 
 ### 攻击过程
-**本实验代码由[https://github.com/IAIK/meltdown](https://github.com/IAIK/meltdown)修改得到。**
+**本实验代码包含了[https://github.com/IAIK/meltdown](https://github.com/IAIK/meltdown)的工作。**
 
 首先用`git clone`下本仓库代码，使用`make`编译。
 
